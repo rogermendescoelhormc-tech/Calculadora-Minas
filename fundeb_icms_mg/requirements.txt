@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────
+# FUNDEB-VAAR & ICMS Educacional — Minas Gerais
+# requirements.txt
+# ─────────────────────────────────────────────
+
+# ── Interface ──────────────────────────────────
+streamlit
+
+# ── Dados tabulares ────────────────────────────
+pandas
+numpy
+openpyxl
+xlrd
+
+# ── Geoespacial ────────────────────────────────
+geopandas
+pyogrio
+shapely
+pyproj
+
+# ── Visualização de mapas ──────────────────────
+folium
+streamlit-folium
+plotly
+
+# ── Gráficos ───────────────────────────────────
+altair
+
+# ── Web scraping (portal FJP — JavaScript SPA) ─
+selenium
+webdriver-manager
+
+# ── Requisições HTTP e parsing HTML ────────────
+requests
+httpx
+beautifulsoup4
+lxml
+
+# ── Leitura de PDF (notas técnicas FJP) ────────
+pdfplumber
+
+# ── Utilitários ────────────────────────────────
+python-dotenv
+tenacity
+loguru
+tqdm
+
+# ── Cache e serialização ───────────────────────
+pyarrow
+
+# ── Agendamento (scheduler local para dev) ─────
+schedule
